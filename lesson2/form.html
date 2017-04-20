@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+	<title> HTML формы</title>
+    </head>
+    <body>
+        <form action="#" method="post" target="" autocomplete="on">
+        <!--target=""-->
+        <!--autocomplete="on"-->
+        	<fieldset> 
+        	<!--атрибуты form , name, disabled, enabled -->
+        		<legend>Текстовые поля</legend>
+        		<div>
+        			<label for="textField">Однострочное текстовое поле</label>
+        			<input id="textField"
+        			 type="text"
+        			  placeholder="text" 
+        			  name=""
+        			   required=""
+        			    maxlength="2">
+
+        		</div>
+        		<label>Поле для пароля</label>
+        		   <input id="passwordField" type="password" name="" maxlength="5">
+        		<div>
+        		<div>
+        			<label for="hiddenField"></label>
+        		</div>
+        		<div>
+        		<label for="textareaField">Многострочный текст</label>
+        			<TEXTAREA id="textField" 
+        			 cols="4"
+        			  rows="6"
+        			   maxlength="67"
+        			    minlength=""
+        			     required
+        			     placeholder="Подсказка"
+        			     Readonly
+        			     autofocus=""></TEXTAREA>
+        			 
+        		</div>
+        		<div>
+        			<legend for="multifileField"  >Несколько файлов любого типа</legend>
+        			<input id="fileField" type="file" name="">
+        		</div>
+        		</div>
+
+        		<div>
+        			<legend for="imagefileField"  >Только изображения</legend>
+        			<input id="imagefileField" type="file" name=""><!-- audio--><!--video-->
+
+        		</div>
+        		
+
+        		<div>
+        			<legend for="multifileField"  >Одиночные раидокнопки
+        			 <input id="fileField" type="radio" checked="" ></legend>
+        			<input id="fileField" type="radio" >
+        		</div>
+
+        		<fieldset>
+        			<legend>Радио группа</legend>
+        			    <label>
+        			    	<input type="radio" name="sex"> Мужской
+        			    	<input type="radio" name="sex"> Женский
+        			    	<input type="radio" name="sex"> Не определился
+        			    </label>
+        		</fieldset>
+
+        		<fieldset>
+        			<legend>Флажки</legend>
+        			    <label>
+        			    	<input type="checkbox" name="sex"> 1
+        			    	</label>
+        			    	<label>
+        			    	<input type="checkbox" name="sex"> 2</label>
+        			    	<label><input type="checkbox" name="sex"> 3
+        			    </label>
+        		</fieldset>
+
+        		<fieldset>
+        			<legend>Кнопки</legend>
+        			<input type="button" value="обычная кнопка">
+
+        			<input type="sumbit" value="Отправить">
+
+        			<input type="reset" value="Сброс">
+        			<input type="image" src="" alt="text" value="Регистрация">
+
+        			<button type="sumbit" value="Обычная кнопка"
+        			formaction=""
+        			formmethod=""
+        			formnovalidate=""
+        			value=""
+        			disabled=""> </button>
+        		</fieldset>
+        		<fieldset>
+        			<legend></legend>
+        			<select autofocus=""
+        			size="5"
+        			required="">
+        				<option value="1">Item1</option>
+        				<option value="2">Item2</option>
+        				<option value="3">Item3</option>
+        				<option value="4" selected>Item4</option>
+        				<option value="5"
+        				>
+        				Item5</option>
+        			</select>
+
+        			<select multiple size="5">
+        				<option value="1">Item1</option>
+        				<option value="2">Item2</option>
+        				<option value="3">Item3</option>
+        				<option value="4" selected>Item4</option>
+        				<option value="5"></option>
+        				</select>
+        			
+        			<select multiple size="5">
+        			<optgroup label="ItemGroup">ItemGroup1</optgroup>
+        				<option value="1">Item1</option>
+        				<option value="2">Item2</option>
+        				<option value="3">Item3</option>
+        				<option value="4" selected>Item4</option>
+        				<option value="5">Item5</option>
+        				<optgroup label="ItemGroup">ItemGroup2</optgroup>
+        				<option value="1">Item1</option>
+        				<option value="2">Item2</option>
+        				<option value="3">Item3</option>
+        				<option value="4" selected>Item4</option>
+        				<option value="5">Item5</option>
+        				</select>
+        		</fieldset>
+
+        		<fieldset>
+        			<div>
+        				<label for="mailFIELD">Адрес электронной почты</label>
+        				<input  id="mail"  type="email" name="">
+        			</div>
+        			<div>
+        				<label for="urlField">Веб адрес</label>
+        				<input  id="urlField"  type="url" name="">
+        			</div>
+        			<div>
+        				<label for="colorField">Выбор цвета</label>
+        				<input  id="colorField"  type="color" name="">
+        			</div>
+        			<div>
+        				<label for="numberField">Ввод чисел</label>
+        				<input  id="numberField"  type="number" value="6" min="1" max="10">
+        			</div>
+
+        			<div>
+        				<label for="numberField">Ввод чисел</label>
+        				<input  id="numberField"  type="range" value="6" min="1" max="10">
+        			</div>
+        			<div>
+        				<label for="dateField">Дата</label>
+        				<input  id="dateField"  type="date" >
+        			</div>
+
+        			<div>
+        				<label for="datetimeField">Дата и время</label>
+        				<input  id="datetimeField"  type="datetime" >
+        			</div>
+        			<div>
+        				<label for="phoneField">телефон</label>
+        				<input  id="phoneField"  type="tel"  pattern="2">
+        			</div>
+        			<div>
+        				<label for="searchField">Поиск</label>
+        				<input  id="searchField"  type="search" name="">
+        			</div>
+
+
+        		</fieldset>
+
+
+
+
+
+
+        	</fieldset>
+        </form>
+	    
+
+    </body>
+</html>
