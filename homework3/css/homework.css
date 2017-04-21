@@ -1,0 +1,69 @@
+/*MENU*/
+.fix {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.menu li {
+	display: inline;
+	background: gray;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #FDF5E6;
+	display: inline-block;
+}
+
+/*END  OF MENU*/
+
+/*HEADER*/
+
+header {
+	height: 200px;
+	border: gray solid;
+	background-image: url(http://3.bp.blogspot.com/-g-HCypcR16w/Uuj9EhKj4FI/AAAAAAAAAWw/gCy_OkjCsd0/s1600/Airwil+IT+Park.jpg);
+
+}
+
+
+
+
+/*END OF HEADER*/
+
+.search {
+	padding-top: 100px;
+    float: right;
+    padding-right: 20px;
+}
+
+h1 {
+	font color: #CD0000;
+}
+
+h2 {
+	font color: green; 
+}
+
+body {
+	background-color: #CDB79E;
+}
+
+/*FOOTER*/
+
+footer { 
+height: 40px;
+border: gray solid;
+box-shadow: 0 0 15px gray;
+ }
+
+ footer {
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+
+/*END OF FOOTER*/
