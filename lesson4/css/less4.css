@@ -1,0 +1,69 @@
+.block {
+	margin: 40px;
+	padding: 60px;
+	border: 3px dotted red ;
+	height: 300px;
+	width: 400px
+	/*background:gray;*/
+
+}
+
+/*фактическая ширина блока (по умолчанию)
+ширина+лев.отступ+ правый отсутп+лев поле+ прав. поле*/
+
+.block {
+	/*box-sizing: content-box;*/
+	box-sizing: border-box;
+}
+
+.block2 {
+	/*display: none;*/
+	visibility: hidden|collapse| visible;
+}
+
+/*margin collapse*/
+
+/* !!!!! ПЕРЕНеСТИ В ДРУГОЙ CSS ФАЙЛ  !!!! */
+
+/*ВЕРСК/ТКА СЛОЯМИ8*/
+
+/*плавающий элемент*/
+ float: left| right| none
+
+ 1. становится блочным
+ 2. обтекается строчными
+
+ .block {
+ 	background-image: url(http://samiye.ru/files/imagecache/post-img/krasivi-gorod.jpg);
+ 	height: 100px
+ 	width: 100px;
+ 	float: right;
+ }
+ /* clear |left| right | both */
+
+ p {
+ 	clear: both;
+ }
+
+ .bord {
+ 	width: 200px;
+ 	height: 200px;
+ 	border: 2px solid red;
+ 	overflow: hidden;
+ 	/*overflow: hidden| scroll| visible*/
+ }
+
+/*ПОЗИЦИОНИРОВАНИЕ*/
+
+.pos {
+	position: static; /*по умолчанию*/
+	position: fixed;/* фикстированная относительно окна браузера*/
+	position: absolute;/*абсолютное от  ближайшего элемента с position: relative;  или от окна браузера*/
+	position: relative;/* относ позиц. 
+}
+
+/* задание координат*/
+top: 13px;
+left:2px;
+right:0px;
+/*bottom:45;*/

@@ -1,0 +1,32 @@
+
+
+
+.block {
+	padding-top:  10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+
+	padding:  10px;
+	padding: 10px 15px /* top -bottom / rigth-left*/
+	padding 10px 15px 20px
+	padding 10px 15px 20px 25px
+}
+
+/* поля - margin * также как и с padding*/
+ .block {
+ 	margin-top: 10px;
+ 	margin-left: 10px;
+
+ }
+
+
+рамка
+ .block{
+ 	border: ширина стиль цвет
+ 	border: 1px dashed red;
+ }
+
+ /*
+ 
+

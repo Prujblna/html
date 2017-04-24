@@ -1,0 +1,146 @@
+
+/*MENU*/
+
+
+#nav7, #nav7 ul, #nav7 li {
+  margin: 0;
+  padding: 0;
+}
+#nav7, #nav7 ul {
+  background: rgb(46,95,122);
+}
+#nav7 { /* подменю перемещается относительно меню */
+  position: relative;
+  display: table;
+  width: 60%;
+}
+#nav7 ul { /* подменю находится вне потока */
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+#nav7 li:hover ul { /* подменю будет показано, если курсор наведён на пункт меню с выпадающем списком */
+  display: block;
+}
+#nav7 li {
+  display: table-cell;
+  text-align: center;
+}
+#nav7 ul li {
+  display: block;
+  text-align: left;
+
+
+}
+#nav7 a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+}
+#nav7 ul a {
+  padding: 3px 15px;
+}
+#nav7 li:hover {
+  background: rgb(96,145,172);
+}
+
+
+/*END  OF MENU*/
+
+
+/*HEADER*/
+
+header {
+	height: 350px; 
+	border: gray solid;
+	background-image: url(http://3.bp.blogspot.com/-g-HCypcR16w/Uuj9EhKj4FI/AAAAAAAAAWw/gCy_OkjCsd0/s1600/Airwil+IT+Park.jpg);
+
+}
+
+
+
+
+/*END OF HEADER*/
+
+.wrapper {
+ 	margin: 0 auto;
+ 	width: 960px;
+ }
+
+ .wrapper2 {
+ 	margin: 0 auto;
+ 	width: 960px;
+ }
+
+.search {
+	padding-top: 100px;
+    float: right;
+    padding-right: 20px;
+}
+
+.pres p {
+	font-family: Arial;
+	font-color: #F0F0F0;
+}
+
+
+h1 {
+	font color: #CD0000;
+}
+
+h2 {
+	font color: green; 
+}
+
+body {
+ background-image: url(C:/Users/Алексей/desktop/nodejs/html/homework4/img/landscape41.jpg);
+
+	/*background-color: #CDB79E;*/
+}
+
+.info {
+
+	text-align: justify;
+	background-image: url(C:/Users/Алексей/desktop/nodejs/html/homework4/img/background-02.jpg);
+	margin-left: 150px;
+	border: 3px solid gray;
+	width: 645px;
+
+}
+
+
+
+
+/*FOOTER*/
+
+.footer {
+margin-left: 150px;
+margin-right: 160px;	
+height: 40px;
+border: gray solid;
+background-image: url(C:/Users/Алексей/desktop/nodejs/html/homework4/img/background-02.jpg);  
+text-align: center;
+ padding-top: 20px;
+}
+
+.footer a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #FF7F00;
+}
+
+
+/*footer { 
+height: 40px;
+border: gray solid;
+background-image: url(C:/Users/Алексей/desktop/nodejs/html/homework4/img/background-02.jpg);  
+ }
+
+ footer {
+ 	text-align: center;
+ 	padding-top: 20px;*/
+ }
+
+
+/*END OF FOOTER*/
