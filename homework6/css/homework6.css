@@ -1,0 +1,126 @@
+/*MENU*/
+.fix {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu li {
+	display: inline;
+	background: gray;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #FDF5E6;
+	display: inline-block;
+}
+
+
+
+/*END OF MENU*/
+
+/*HEADER*/
+
+.header {
+	width: 1000px;
+	height: 200px;
+	background-image: url(C:/Users/Алексей/Desktop/Nodejs/html/homework6/img/header.jpg);
+	color: #000000
+}
+
+
+/*END OF HEADER*/
+
+body {
+	background-color: #551A8B;
+	/*background-image: url(C:/Users/Алексей/Desktop/Nodejs/html/homework6/img/fon.jpg);*/
+}
+
+h2 {
+	text-align: left;
+	color: red;
+	border: 2px;
+}
+
+h6 {
+	color: red;
+}
+
+ .pres p { 
+ 	font-family: Arial;
+	font-color:#F0F0F0;
+ }
+.content {
+	width: 750px;
+	/*height: auto;*/
+	background-color: #551A8B;
+}
+
+.blocks {
+	margin: 0;
+	padding: 0;
+	background-color: #551A8B;
+
+
+}
+
+.block {
+	vertical-align: top;
+}
+.blhead {
+	width: 203px;
+	height: 45px;
+	margin: 10px 10px 0px 20px;
+	padding: 0;
+	text-align: center;
+}
+.blcont {
+
+	width: 203px;
+	margin: 0px 10px 10px 10px;
+
+}
+
+
+
+footer {
+	margin-left: 2px;
+	width: 996px;
+	height: 100px;
+	background-image: url(C:/Users/Алексей/Desktop/Nodejs/html/homework6/img/footer.jpg);
+}
+
+@media  screen and (max-width: 480px) {
+	header {
+	max-width: 50%
+	height:auto;
+}
+
+	 
+
+	.content {
+	width: 300px;
+}
+
+    .blcont {
+    	display: none;
+    width: 100px;
+
+}
+.blhead {
+	display: none;
+	text-align: left;
+}
+footer {
+	max-width: 90%;
+	height: 75px;
+}
+
+}

@@ -12,7 +12,7 @@
 #nav7 { /* подменю перемещается относительно меню */
   position: relative;
   display: table;
-  width: 100%;
+  width: 60%;
 }
 #nav7 ul { /* подменю находится вне потока */
   position: absolute;
@@ -52,10 +52,9 @@
 /*HEADER*/
 
 header {
-	height: 200px; 
-  width: 1000px;
+	height: 350px; 
 	border: gray solid;
-	background-image: url(C:/Users/Алексей/Desktop/Nodejs/html/homework6/img/header.jpg);
+	background-image: url(http://3.bp.blogspot.com/-g-HCypcR16w/Uuj9EhKj4FI/AAAAAAAAAWw/gCy_OkjCsd0/s1600/Airwil+IT+Park.jpg);
 
 }
 
