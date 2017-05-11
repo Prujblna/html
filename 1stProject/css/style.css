@@ -1,0 +1,246 @@
+/*slider*/
+.slider  {
+	height: 50%;
+	width: 100%;
+}
+
+.slider li {
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slider .slide1 {
+	background-image: url(..1stProject/img/01.jpg);
+}
+
+.slider .slide2 {
+	background-image: url(..1stProject/img/02.jpg);
+}
+
+.slider .slide3 {
+	background-image: url('http://www.joshgroban.com/sites/g/files/g2000006141/f/201610/JG_Site2016_Headers_2560x943_site.jpg?timestamp=1477419942');
+}
+
+.slider .slide4 {
+	background-image: url(..1stProject/img/04.jpg);
+}
+/*end of slider*/
+
+/*menu*/
+
+.menu {
+	float: right;
+	margin-right:0;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	display: block;
+
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
+	
+}
+.menu li:hover {
+    background: lightskyblue;
+}
+
+
+/*end of menu*/
+
+.logo {
+ margin-left: 0;
+ text-decoration: none;
+
+}
+
+.logo a {
+	 text-decoration: none;
+
+}
+/*form*/
+
+.mfield input{
+	color: #fff;
+	float: none;
+	clear: both;
+	display: block;
+	letter-spacing: 0;
+	border-radius: 0px;
+	line-height: normal;
+    align-content: center; 
+}
+
+/*end of form*/
+
+body {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+
+}
+
+.wrapper {
+	margin: 0;
+	max-width: 1000px;
+}
+
+.info_block {
+	height: 20em;
+	border: 0;
+	background-color: white;
+	position: relative;
+	margin: 10px;
+   
+}
+
+.info_block1 {
+	height: 20em;
+	border: 0;
+	background-color: white;
+	position: absolute;
+	margin: 10px;
+}
+
+
+
+.inst {
+   height: 13em;
+   border: 0;
+   background-color: white;
+   position: relative;
+   margin: 10px;
+}
+
+
+.one  {
+   height: 13em;
+   border: 0;
+   background-color: white;
+   position: relative;
+   margin: 10px;	
+}
+
+.two {
+   height: 13em;
+   border: 0;
+   background-color: white;
+   position: relative;
+   margin: 10px;	   
+}
+
+
+.content  {
+   height: 25em;
+   border: 0;
+   background-color: #1E90FF;
+   position: relative;
+   margin: 1px;	   
+}
+
+.content p {
+	color: white;
+	text-align: right;
+}
+
+.tweets {
+   height: 25em;
+   border: 0;
+   background-color: #7B68EE;
+   position: relative;
+   margin: 1px;	   
+}
+
+.tweets blockquote {
+	background-color: #00008B;
+	color: white;
+}
+
+.socicon {
+	height: 7em;
+   border: 0;
+   background-color: white;
+   position: relative;
+   margin: 1px;	   
+}
+
+.footer  {
+	height: 7em;
+	border: 0;
+	background-color: black;
+	color: white;
+
+}
+
+.footer p {
+	text-align: left;
+	margin-bottom: 3.5em;
+}
+
+.footnav {
+
+}
+
+.footnav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.footnav ul {
+	list-style: none;
+}
+
+.footnav li {
+	display: inline-block;
+}
+
+
+@media screen and (max-width: 640px) {
+	.info_block1 {
+		display: none;
+	}
+
+	.info_block {
+		margin: 
+	}
+
+	.slider {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 200px;
+    width: 100%;
+}
+
+
+ .content {
+ 	/*display: none;*/
+ }
+
+    .two {
+    	display: none;
+    }
+
+    .tweets {
+    	display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.col-min-3 {
+		margin: 5px;
+	}
+}
